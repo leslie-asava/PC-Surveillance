@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="logo">
+    <file>ICU_logo_.png</file>
+    <file>../ICU_logo_.png</file>
+  </qresource>
+</RCC>

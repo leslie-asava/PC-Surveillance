@@ -1,0 +1,1808 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>HomePage</class>
+ <widget class="QMainWindow" name="HomePage">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>740</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="font">
+   <font>
+    <family>Verdana</family>
+    <pointsize>10</pointsize>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string>ICU_Services</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QHBoxLayout" name="horizontalLayout">
+    <property name="spacing">
+     <number>0</number>
+    </property>
+    <property name="leftMargin">
+     <number>0</number>
+    </property>
+    <property name="topMargin">
+     <number>0</number>
+    </property>
+    <property name="rightMargin">
+     <number>0</number>
+    </property>
+    <property name="bottomMargin">
+     <number>0</number>
+    </property>
+    <item>
+     <widget class="QFrame" name="frame">
+      <property name="frameShape">
+       <enum>QFrame::NoFrame</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+      <layout class="QVBoxLayout" name="verticalLayout">
+       <property name="spacing">
+        <number>0</number>
+       </property>
+       <property name="leftMargin">
+        <number>0</number>
+       </property>
+       <property name="topMargin">
+        <number>0</number>
+       </property>
+       <property name="rightMargin">
+        <number>0</number>
+       </property>
+       <property name="bottomMargin">
+        <number>0</number>
+       </property>
+       <item>
+        <widget class="QFrame" name="frame_2">
+         <property name="frameShape">
+          <enum>QFrame::StyledPanel</enum>
+         </property>
+         <property name="frameShadow">
+          <enum>QFrame::Raised</enum>
+         </property>
+         <layout class="QHBoxLayout" name="horizontalLayout_2">
+          <property name="spacing">
+           <number>0</number>
+          </property>
+          <property name="leftMargin">
+           <number>0</number>
+          </property>
+          <property name="topMargin">
+           <number>0</number>
+          </property>
+          <property name="rightMargin">
+           <number>0</number>
+          </property>
+          <property name="bottomMargin">
+           <number>0</number>
+          </property>
+          <item>
+           <widget class="QFrame" name="menuBody">
+            <property name="maximumSize">
+             <size>
+              <width>500</width>
+              <height>16777215</height>
+             </size>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">background-color: rgb(255, 246, 251);</string>
+            </property>
+            <property name="frameShape">
+             <enum>QFrame::StyledPanel</enum>
+            </property>
+            <property name="frameShadow">
+             <enum>QFrame::Raised</enum>
+            </property>
+            <layout class="QVBoxLayout" name="verticalLayout_3">
+             <item>
+              <widget class="QStackedWidget" name="body">
+               <property name="styleSheet">
+                <string notr="true">QPushButtonr{
+	border-top-left-radius: 10px;
+	border-bottom-left-radius: 10px;
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+
+}</string>
+               </property>
+               <property name="currentIndex">
+                <number>0</number>
+               </property>
+               <widget class="QWidget" name="Hpage">
+                <widget class="QLabel" name="label_2">
+                 <property name="geometry">
+                  <rect>
+                   <x>80</x>
+                   <y>100</y>
+                   <width>341</width>
+                   <height>221</height>
+                  </rect>
+                 </property>
+                 <property name="text">
+                  <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;img src=&quot;:/logo/ICU_logo_.png&quot;/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                 </property>
+                </widget>
+                <widget class="QLabel" name="label_3">
+                 <property name="geometry">
+                  <rect>
+                   <x>130</x>
+                   <y>360</y>
+                   <width>261</width>
+                   <height>81</height>
+                  </rect>
+                 </property>
+                 <property name="font">
+                  <font>
+                   <family>Arial Narrow</family>
+                   <pointsize>22</pointsize>
+                   <weight>75</weight>
+                   <bold>true</bold>
+                  </font>
+                 </property>
+                 <property name="text">
+                  <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:18pt; color:#aa557f;&quot;&gt;Keep Them &lt;/span&gt;&lt;span style=&quot; font-size:18pt; text-decoration: underline; color:#aa557f;&quot;&gt;PROTECT &lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:18pt; color:#aa557f;&quot;&gt;Keep Them &lt;/span&gt;&lt;span style=&quot; font-size:18pt; text-decoration: underline; color:#aa557f;&quot;&gt;Safe&lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;br/&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                 </property>
+                </widget>
+               </widget>
+               <widget class="QWidget" name="Kpage">
+                <widget class="QLabel" name="label_8">
+                 <property name="geometry">
+                  <rect>
+                   <x>360</x>
+                   <y>100</y>
+                   <width>111</width>
+                   <height>20</height>
+                  </rect>
+                 </property>
+                 <property name="font">
+                  <font>
+                   <family>Arial Narrow</family>
+                  </font>
+                 </property>
+                 <property name="text">
+                  <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:11pt; font-weight:600;&quot;&gt;:وصف الخدمة&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                 </property>
+                </widget>
+                <widget class="QLabel" name="label_11">
+                 <property name="geometry">
+                  <rect>
+                   <x>10</x>
+                   <y>130</y>
+                   <width>441</width>
+                   <height>20</height>
+                  </rect>
+                 </property>
+                 <property name="font">
+                  <font>
+                   <family>Arial Narrow</family>
+                  </font>
+                 </property>
+                 <property name="text">
+                  <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:10pt; color:#aa557f;&quot;&gt;،تقوم هذه الخدمة بتسجيل كل ضغطة على مفتاح الإدخال في جهاز الطفل(الكيبورد)&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                 </property>
+                </widget>
+                <widget class="QLabel" name="label_12">
+                 <property name="geometry">
+                  <rect>
+                   <x>80</x>
+                   <y>150</y>
+                   <width>371</width>
+                   <height>20</height>
+                  </rect>
+                 </property>
+                 <property name="font">
+                  <font>
+                   <family>Arial Narrow</family>
+                  </font>
+                 </property>
+                 <property name="text">
+                  <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:10pt; color:#aa557f;&quot;&gt;.حيث تلتقط وتسجل ضغطات مفتاح الإدخال و تحفظها في ملف السجل&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                 </property>
+                </widget>
+                <widget class="QPushButton" name="openKlogFile">
+                 <property name="geometry">
+                  <rect>
+                   <x>200</x>
+                   <y>490</y>
+                   <width>81</width>
+                   <height>41</height>
+                  </rect>
+                 </property>
+                 <property name="font">
+                  <font>
+                   <family>Nirmala UI</family>
+                   <pointsize>9</pointsize>
+                   <weight>75</weight>
+                   <bold>true</bold>
+                  </font>
+                 </property>
+                 <property name="cursor">
+                  <cursorShape>PointingHandCursor</cursorShape>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">QPushButton:hover{
+	background-color:white;
+	border-top-left-radius: 10px;
+	border-bottom-left-radius: 10px;
+border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+
+}
+
+QPushButton{
+background-color: rgb(255, 207, 233);
+border-color: qradialgradient(spread:pad, cx:0.5, cy:0.5, radius:0.5, fx:0.5, fy:0.5, stop:0 rgba(0, 0, 0, 0), stop:0.52 rgba(0, 0, 0, 0), stop:0.565 rgba(82, 121, 76, 33), stop:0.65 rgba(159, 235, 148, 64), stop:0.721925 rgba(255, 238, 150, 129), stop:0.77 rgba(255, 128, 128, 204), stop:0.89 rgba(191, 128, 255, 64), stop:1 rgba(0, 0, 0, 0));
+border-radius:30px;
+	border-top-left-radius: 10px;
+	border-bottom-left-radius: 10px;
+border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+
+}</string>
+                 </property>
+                 <property name="text">
+                  <string>فتح الملف </string>
+                 </property>
+                </widget>
+                <widget class="QLabel" name="label_13">
+                 <property name="geometry">
+                  <rect>
+                   <x>340</x>
+                   <y>500</y>
+                   <width>101</width>
+                   <height>20</height>
+                  </rect>
+                 </property>
+                 <property name="font">
+                  <font>
+                   <family>Arial Narrow</family>
+                   <pointsize>9</pointsize>
+                   <weight>75</weight>
+                   <bold>true</bold>
+                  </font>
+                 </property>
+                 <property name="text">
+                  <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;:عرض السجل&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                 </property>
+                </widget>
+                <widget class="QCheckBox" name="enableKservice">
+                 <property name="geometry">
+                  <rect>
+                   <x>340</x>
+                   <y>280</y>
+                   <width>131</width>
+                   <height>20</height>
+                  </rect>
+                 </property>
+                 <property name="font">
+                  <font>
+                   <family>Arial Narrow</family>
+                   <pointsize>10</pointsize>
+                   <weight>75</weight>
+                   <bold>true</bold>
+                  </font>
+                 </property>
+                 <property name="text">
+                  <string>تفعيل الخدمة </string>
+                 </property>
+                </widget>
+                <widget class="QLabel" name="label_14">
+                 <property name="geometry">
+                  <rect>
+                   <x>100</x>
+                   <y>170</y>
+                   <width>351</width>
+                   <height>20</height>
+                  </rect>
+                 </property>
+                 <property name="text">
+                  <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:10pt; color:#aa557f;&quot;&gt;.عندما يتم &lt;/span&gt;&lt;span style=&quot; font-size:10pt; text-decoration: underline; color:#aa557f;&quot;&gt;تفعيل الإشعارات&lt;/span&gt;&lt;span style=&quot; font-size:10pt; color:#aa557f;&quot;&gt; سيتم إرسال تنبيه في الوقت الفعلي&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                 </property>
+                </widget>
+                <widget class="QPushButton" name="submitK">
+                 <property name="geometry">
+                  <rect>
+                   <x>200</x>
+                   <y>330</y>
+                   <width>81</width>
+                   <height>41</height>
+                  </rect>
+                 </property>
+                 <property name="font">
+                  <font>
+                   <family>Nirmala UI</family>
+                   <pointsize>9</pointsize>
+                   <weight>75</weight>
+                   <bold>true</bold>
+                  </font>
+                 </property>
+                 <property name="cursor">
+                  <cursorShape>PointingHandCursor</cursorShape>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">QPushButton:hover{
+	background-color:white;
+	border-top-left-radius: 10px;
+	border-bottom-left-radius: 10px;
+border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+
+}
+
+QPushButton{
+background-color: rgb(255, 207, 233);
+border-color: qradialgradient(spread:pad, cx:0.5, cy:0.5, radius:0.5, fx:0.5, fy:0.5, stop:0 rgba(0, 0, 0, 0), stop:0.52 rgba(0, 0, 0, 0), stop:0.565 rgba(82, 121, 76, 33), stop:0.65 rgba(159, 235, 148, 64), stop:0.721925 rgba(255, 238, 150, 129), stop:0.77 rgba(255, 128, 128, 204), stop:0.89 rgba(191, 128, 255, 64), stop:1 rgba(0, 0, 0, 0));
+border-radius:30px;
+	border-top-left-radius: 10px;
+	border-bottom-left-radius: 10px;
+border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+
+}</string>
+                 </property>
+                 <property name="text">
+                  <string>تفعيل </string>
+                 </property>
+                </widget>
+                <widget class="QLabel" name="label_15">
+                 <property name="geometry">
+                  <rect>
+                   <x>100</x>
+                   <y>240</y>
+                   <width>351</width>
+                   <height>20</height>
+                  </rect>
+                 </property>
+                 <property name="text">
+                  <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;right&quot;&gt;&lt;span style=&quot; font-size:10pt; color:#ff557f;&quot;&gt;&amp;quot;رجاءً قم بتحديد الخيار أدناه , ثم انقر على &amp;quot;&lt;/span&gt;&lt;span style=&quot; font-size:10pt; font-weight:600; text-decoration: underline; color:#ff557f;&quot;&gt;تفعيل&lt;/span&gt;&lt;span style=&quot; font-size:10pt; font-weight:600; color:#ff557f;&quot;&gt;*&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                 </property>
+                </widget>
+                <widget class="QLabel" name="label_6">
+                 <property name="geometry">
+                  <rect>
+                   <x>20</x>
+                   <y>0</y>
+                   <width>431</width>
+                   <height>31</height>
+                  </rect>
+                 </property>
+                 <property name="text">
+                  <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:11pt; font-weight:600; font-style:italic; color:#aa557f;&quot;&gt;** Keylogging Service**&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                 </property>
+                </widget>
+                <widget class="QLabel" name="label_31">
+                 <property name="geometry">
+                  <rect>
+                   <x>-10</x>
+                   <y>200</y>
+                   <width>491</width>
+                   <height>20</height>
+                  </rect>
+                 </property>
+                 <property name="text">
+                  <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; color:#ffcfe9;&quot;&gt;ـــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــ&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                 </property>
+                </widget>
+                <widget class="QLabel" name="label_35">
+                 <property name="geometry">
+                  <rect>
+                   <x>-10</x>
+                   <y>400</y>
+                   <width>491</width>
+                   <height>20</height>
+                  </rect>
+                 </property>
+                 <property name="text">
+                  <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; color:#ffcfe9;&quot;&gt;ـــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــ&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                 </property>
+                </widget>
+                <widget class="QLabel" name="label_36">
+                 <property name="geometry">
+                  <rect>
+                   <x>100</x>
+                   <y>450</y>
+                   <width>351</width>
+                   <height>20</height>
+                  </rect>
+                 </property>
+                 <property name="text">
+                  <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;right&quot;&gt;&lt;span style=&quot; font-size:10pt; color:#ff557f;&quot;&gt;انقر على&lt;/span&gt;&lt;span style=&quot; font-size:10pt; font-weight:600; color:#ff557f;&quot;&gt; &amp;quot; فتح الملف&amp;quot; &lt;/span&gt;&lt;span style=&quot; font-size:10pt; color:#ff557f;&quot;&gt;لعرض سجلات التسجيل*&lt;/span&gt;&lt;span style=&quot; font-size:10pt; font-weight:600; color:#ff557f;&quot;/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                 </property>
+                </widget>
+               </widget>
+               <widget class="QWidget" name="Spage">
+                <widget class="QLabel" name="label_16">
+                 <property name="geometry">
+                  <rect>
+                   <x>350</x>
+                   <y>100</y>
+                   <width>111</width>
+                   <height>20</height>
+                  </rect>
+                 </property>
+                 <property name="font">
+                  <font>
+                   <family>Arial Narrow</family>
+                  </font>
+                 </property>
+                 <property name="text">
+                  <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:11pt; font-weight:600;&quot;&gt;:وصف الخدمة&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                 </property>
+                </widget>
+                <widget class="QLabel" name="label_17">
+                 <property name="geometry">
+                  <rect>
+                   <x>10</x>
+                   <y>240</y>
+                   <width>441</width>
+                   <height>20</height>
+                  </rect>
+                 </property>
+                 <property name="text">
+                  <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:10pt; color:#ff557f;&quot;&gt;&amp;quot;رجاءً قم بتحديد الخيار التالي وتحديد وقت لقطات الشاشة، ثم انقر على &amp;quot;&lt;/span&gt;&lt;span style=&quot; font-size:10pt; font-weight:600; text-decoration: underline; color:#ff557f;&quot;&gt;تفعيل&lt;/span&gt;&lt;span style=&quot; font-size:10pt; font-weight:600; color:#ff557f;&quot;&gt;*&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                 </property>
+                </widget>
+                <widget class="QPushButton" name="submitS">
+                 <property name="geometry">
+                  <rect>
+                   <x>20</x>
+                   <y>330</y>
+                   <width>81</width>
+                   <height>41</height>
+                  </rect>
+                 </property>
+                 <property name="font">
+                  <font>
+                   <family>Nirmala UI</family>
+                   <pointsize>9</pointsize>
+                   <weight>75</weight>
+                   <bold>true</bold>
+                  </font>
+                 </property>
+                 <property name="cursor">
+                  <cursorShape>PointingHandCursor</cursorShape>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">QPushButton:hover{
+	background-color:white;
+	border-top-left-radius: 10px;
+	border-bottom-left-radius: 10px;
+border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+
+}
+
+QPushButton{
+background-color: rgb(255, 207, 233);
+border-color: qradialgradient(spread:pad, cx:0.5, cy:0.5, radius:0.5, fx:0.5, fy:0.5, stop:0 rgba(0, 0, 0, 0), stop:0.52 rgba(0, 0, 0, 0), stop:0.565 rgba(82, 121, 76, 33), stop:0.65 rgba(159, 235, 148, 64), stop:0.721925 rgba(255, 238, 150, 129), stop:0.77 rgba(255, 128, 128, 204), stop:0.89 rgba(191, 128, 255, 64), stop:1 rgba(0, 0, 0, 0));
+border-radius:30px;
+	border-top-left-radius: 10px;
+	border-bottom-left-radius: 10px;
+border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+
+}</string>
+                 </property>
+                 <property name="text">
+                  <string>تفعيل </string>
+                 </property>
+                </widget>
+                <widget class="QCheckBox" name="enableSservice">
+                 <property name="geometry">
+                  <rect>
+                   <x>330</x>
+                   <y>280</y>
+                   <width>121</width>
+                   <height>20</height>
+                  </rect>
+                 </property>
+                 <property name="font">
+                  <font>
+                   <family>Arial Narrow</family>
+                   <pointsize>10</pointsize>
+                   <weight>75</weight>
+                   <bold>true</bold>
+                  </font>
+                 </property>
+                 <property name="text">
+                  <string>تفعيل الخدمة </string>
+                 </property>
+                </widget>
+                <widget class="QPushButton" name="openSlogFile">
+                 <property name="geometry">
+                  <rect>
+                   <x>210</x>
+                   <y>490</y>
+                   <width>81</width>
+                   <height>41</height>
+                  </rect>
+                 </property>
+                 <property name="font">
+                  <font>
+                   <family>Nirmala UI</family>
+                   <pointsize>9</pointsize>
+                   <weight>75</weight>
+                   <bold>true</bold>
+                  </font>
+                 </property>
+                 <property name="cursor">
+                  <cursorShape>PointingHandCursor</cursorShape>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">QPushButton:hover{
+	background-color:white;
+	border-top-left-radius: 10px;
+	border-bottom-left-radius: 10px;
+border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+
+}
+
+QPushButton{
+background-color: rgb(255, 207, 233);
+border-color: qradialgradient(spread:pad, cx:0.5, cy:0.5, radius:0.5, fx:0.5, fy:0.5, stop:0 rgba(0, 0, 0, 0), stop:0.52 rgba(0, 0, 0, 0), stop:0.565 rgba(82, 121, 76, 33), stop:0.65 rgba(159, 235, 148, 64), stop:0.721925 rgba(255, 238, 150, 129), stop:0.77 rgba(255, 128, 128, 204), stop:0.89 rgba(191, 128, 255, 64), stop:1 rgba(0, 0, 0, 0));
+border-radius:30px;
+	border-top-left-radius: 10px;
+	border-bottom-left-radius: 10px;
+border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+
+}</string>
+                 </property>
+                 <property name="text">
+                  <string>فتح الملف </string>
+                 </property>
+                </widget>
+                <widget class="QLabel" name="label_32">
+                 <property name="geometry">
+                  <rect>
+                   <x>340</x>
+                   <y>500</y>
+                   <width>101</width>
+                   <height>20</height>
+                  </rect>
+                 </property>
+                 <property name="font">
+                  <font>
+                   <family>Arial Narrow</family>
+                   <pointsize>9</pointsize>
+                   <weight>75</weight>
+                   <bold>true</bold>
+                  </font>
+                 </property>
+                 <property name="text">
+                  <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;:عرض السجل&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                 </property>
+                </widget>
+                <widget class="QLabel" name="label_19">
+                 <property name="geometry">
+                  <rect>
+                   <x>10</x>
+                   <y>0</y>
+                   <width>451</width>
+                   <height>31</height>
+                  </rect>
+                 </property>
+                 <property name="text">
+                  <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:11pt; font-weight:600; font-style:italic; color:#aa557f;&quot;&gt;** Screenshot Service**&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                 </property>
+                </widget>
+                <widget class="QLabel" name="label_37">
+                 <property name="geometry">
+                  <rect>
+                   <x>0</x>
+                   <y>210</y>
+                   <width>491</width>
+                   <height>20</height>
+                  </rect>
+                 </property>
+                 <property name="text">
+                  <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; color:#ffcfe9;&quot;&gt;ـــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــ&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                 </property>
+                </widget>
+                <widget class="QLabel" name="label_38">
+                 <property name="geometry">
+                  <rect>
+                   <x>-10</x>
+                   <y>400</y>
+                   <width>491</width>
+                   <height>20</height>
+                  </rect>
+                 </property>
+                 <property name="text">
+                  <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; color:#ffcfe9;&quot;&gt;ـــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــ&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                 </property>
+                </widget>
+                <widget class="QLabel" name="label_39">
+                 <property name="geometry">
+                  <rect>
+                   <x>110</x>
+                   <y>450</y>
+                   <width>351</width>
+                   <height>20</height>
+                  </rect>
+                 </property>
+                 <property name="text">
+                  <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;right&quot;&gt;&lt;span style=&quot; font-size:10pt; color:#ff557f;&quot;&gt;انقر على&lt;/span&gt;&lt;span style=&quot; font-size:10pt; font-weight:600; color:#ff557f;&quot;&gt; &amp;quot; فتح الملف&amp;quot; &lt;/span&gt;&lt;span style=&quot; font-size:10pt; color:#ff557f;&quot;&gt;لعرض سجلات التسجيل*&lt;/span&gt;&lt;span style=&quot; font-size:10pt; font-weight:600; color:#ff557f;&quot;/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                 </property>
+                </widget>
+                <widget class="QLabel" name="label_44">
+                 <property name="geometry">
+                  <rect>
+                   <x>0</x>
+                   <y>130</y>
+                   <width>441</width>
+                   <height>51</height>
+                  </rect>
+                 </property>
+                 <property name="font">
+                  <font>
+                   <family>Arial Narrow</family>
+                   <pointsize>9</pointsize>
+                  </font>
+                 </property>
+                 <property name="text">
+                  <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;right&quot;&gt;&lt;span style=&quot; font-size:9pt; color:#aa557f;&quot;&gt;.تتيح هذه الخدمة أخذ لقطات شاشة تلتقط محتويات شاشة جهاز الطفل كل مدة معينة&lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;right&quot;&gt;&lt;span style=&quot; font-size:9pt; color:#aa557f;&quot;&gt;.أيضًا تتيح تمكين التنبيه في الوقت الفعلي و عرض سجل لقطات الشاشة المحفوظة&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                 </property>
+                </widget>
+                <widget class="QLabel" name="label_47">
+                 <property name="geometry">
+                  <rect>
+                   <x>126</x>
+                   <y>330</y>
+                   <width>331</width>
+                   <height>51</height>
+                  </rect>
+                 </property>
+                 <property name="text">
+                  <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;right&quot;&gt;أ&lt;span style=&quot; color:#ff007f;&quot;&gt;دخل الوقت المناسب لأخذ لقطة شاشة ( بالدقائق) &lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;right&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#ff007f;&quot;&gt;حيث إذا أردت تفعيل لقطة الشاشة لكل ساعة الرجاء أدخل الرقم (60 ) *** &lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                 </property>
+                </widget>
+                <widget class="QLineEdit" name="time">
+                 <property name="geometry">
+                  <rect>
+                   <x>170</x>
+                   <y>330</y>
+                   <width>41</width>
+                   <height>21</height>
+                  </rect>
+                 </property>
+                </widget>
+               </widget>
+               <widget class="QWidget" name="Apage">
+                <widget class="QLabel" name="label_33">
+                 <property name="geometry">
+                  <rect>
+                   <x>360</x>
+                   <y>90</y>
+                   <width>101</width>
+                   <height>20</height>
+                  </rect>
+                 </property>
+                 <property name="font">
+                  <font>
+                   <family>Arial Narrow</family>
+                  </font>
+                 </property>
+                 <property name="text">
+                  <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:11pt; font-weight:600; color:#000000;&quot;&gt;:وصف الخدمة&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                 </property>
+                </widget>
+                <widget class="QPushButton" name="openAfile">
+                 <property name="geometry">
+                  <rect>
+                   <x>170</x>
+                   <y>290</y>
+                   <width>81</width>
+                   <height>21</height>
+                  </rect>
+                 </property>
+                 <property name="font">
+                  <font>
+                   <family>Nirmala UI</family>
+                   <pointsize>9</pointsize>
+                   <weight>75</weight>
+                   <bold>true</bold>
+                  </font>
+                 </property>
+                 <property name="cursor">
+                  <cursorShape>PointingHandCursor</cursorShape>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">QPushButton:hover{
+	background-color:white;
+	border-top-left-radius: 10px;
+	border-bottom-left-radius: 10px;
+border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+
+}
+
+QPushButton{
+background-color: rgb(255, 207, 233);
+border-color: qradialgradient(spread:pad, cx:0.5, cy:0.5, radius:0.5, fx:0.5, fy:0.5, stop:0 rgba(0, 0, 0, 0), stop:0.52 rgba(0, 0, 0, 0), stop:0.565 rgba(82, 121, 76, 33), stop:0.65 rgba(159, 235, 148, 64), stop:0.721925 rgba(255, 238, 150, 129), stop:0.77 rgba(255, 128, 128, 204), stop:0.89 rgba(191, 128, 255, 64), stop:1 rgba(0, 0, 0, 0));
+border-radius:30px;
+	border-top-left-radius: 10px;
+	border-bottom-left-radius: 10px;
+border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+
+}</string>
+                 </property>
+                 <property name="text">
+                  <string>فتح </string>
+                 </property>
+                </widget>
+                <widget class="QLabel" name="label_34">
+                 <property name="geometry">
+                  <rect>
+                   <x>270</x>
+                   <y>290</y>
+                   <width>181</width>
+                   <height>20</height>
+                  </rect>
+                 </property>
+                 <property name="text">
+                  <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;right&quot;&gt;&lt;span style=&quot; font-size:10pt; color:#ff557f;&quot;&gt;انقر على &lt;/span&gt;&lt;span style=&quot; font-size:10pt; font-weight:600; text-decoration: underline; color:#ff557f;&quot;&gt;فتح&lt;/span&gt;&lt;span style=&quot; font-size:10pt; color:#ff557f;&quot;&gt; لفتح مجلد الإضافة*&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                 </property>
+                </widget>
+                <widget class="QLabel" name="label_7">
+                 <property name="geometry">
+                  <rect>
+                   <x>230</x>
+                   <y>340</y>
+                   <width>251</width>
+                   <height>20</height>
+                  </rect>
+                 </property>
+                 <property name="text">
+                  <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:10pt; color:#ff557f;&quot;&gt;انقر على &lt;/span&gt;&lt;span style=&quot; font-size:10pt; font-weight:600; color:#ff557f;&quot;&gt;تحميل&lt;/span&gt;&lt;span style=&quot; font-size:10pt; color:#ff557f;&quot;&gt; لعرض تعليمات التثبيت* &lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                 </property>
+                </widget>
+                <widget class="QPushButton" name="Download">
+                 <property name="geometry">
+                  <rect>
+                   <x>130</x>
+                   <y>340</y>
+                   <width>81</width>
+                   <height>21</height>
+                  </rect>
+                 </property>
+                 <property name="font">
+                  <font>
+                   <family>Nirmala UI</family>
+                   <pointsize>9</pointsize>
+                   <weight>75</weight>
+                   <bold>true</bold>
+                  </font>
+                 </property>
+                 <property name="cursor">
+                  <cursorShape>PointingHandCursor</cursorShape>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">QPushButton:hover{
+	background-color:white;
+	border-top-left-radius: 10px;
+	border-bottom-left-radius: 10px;
+border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+
+}
+
+QPushButton{
+background-color: rgb(255, 207, 233);
+border-color: qradialgradient(spread:pad, cx:0.5, cy:0.5, radius:0.5, fx:0.5, fy:0.5, stop:0 rgba(0, 0, 0, 0), stop:0.52 rgba(0, 0, 0, 0), stop:0.565 rgba(82, 121, 76, 33), stop:0.65 rgba(159, 235, 148, 64), stop:0.721925 rgba(255, 238, 150, 129), stop:0.77 rgba(255, 128, 128, 204), stop:0.89 rgba(191, 128, 255, 64), stop:1 rgba(0, 0, 0, 0));
+border-radius:30px;
+	border-top-left-radius: 10px;
+	border-bottom-left-radius: 10px;
+border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+
+}</string>
+                 </property>
+                 <property name="text">
+                  <string>تحميل</string>
+                 </property>
+                </widget>
+                <widget class="QLabel" name="label_20">
+                 <property name="geometry">
+                  <rect>
+                   <x>0</x>
+                   <y>0</y>
+                   <width>471</width>
+                   <height>31</height>
+                  </rect>
+                 </property>
+                 <property name="text">
+                  <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:11pt; font-weight:600; font-style:italic; color:#aa557f;&quot;&gt;** Ad Block Service**&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                 </property>
+                </widget>
+                <widget class="QLabel" name="label_40">
+                 <property name="geometry">
+                  <rect>
+                   <x>-10</x>
+                   <y>250</y>
+                   <width>491</width>
+                   <height>20</height>
+                  </rect>
+                 </property>
+                 <property name="text">
+                  <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; color:#ffcfe9;&quot;&gt;ـــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــ&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                 </property>
+                </widget>
+                <widget class="QLabel" name="label_43">
+                 <property name="geometry">
+                  <rect>
+                   <x>0</x>
+                   <y>120</y>
+                   <width>451</width>
+                   <height>111</height>
+                  </rect>
+                 </property>
+                 <property name="text">
+                  <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;right&quot;&gt;&lt;span style=&quot; font-size:9pt; color:#aa557f;&quot;&gt;تمكن هذه الخدمة المتصفح (كروم) من حظر جميع الإعلانات التي تظهر على مواقع الويب&lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;right&quot;&gt;&lt;br/&gt;&lt;/p&gt;&lt;p align=&quot;right&quot;&gt;&lt;span style=&quot; font-size:9pt; color:#aa557f;&quot;&gt;لتفعيل هذه الخدمة عليك تحميل ملف التعليمات للتثبيت مجلد الإضافة على المتصفح (كروم) *&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                 </property>
+                </widget>
+               </widget>
+               <widget class="QWidget" name="Fpage">
+                <widget class="QLabel" name="label_21">
+                 <property name="geometry">
+                  <rect>
+                   <x>-4</x>
+                   <y>-10</y>
+                   <width>481</width>
+                   <height>31</height>
+                  </rect>
+                 </property>
+                 <property name="text">
+                  <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:11pt; font-weight:600; font-style:italic; color:#aa557f;&quot;&gt;** Filter Website Service**&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                 </property>
+                </widget>
+                <widget class="QLabel" name="label_22">
+                 <property name="geometry">
+                  <rect>
+                   <x>400</x>
+                   <y>60</y>
+                   <width>47</width>
+                   <height>13</height>
+                  </rect>
+                 </property>
+                 <property name="text">
+                  <string/>
+                 </property>
+                </widget>
+                <widget class="QLabel" name="label_23">
+                 <property name="geometry">
+                  <rect>
+                   <x>50</x>
+                   <y>190</y>
+                   <width>401</width>
+                   <height>20</height>
+                  </rect>
+                 </property>
+                 <property name="text">
+                  <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;right&quot;&gt;&lt;span style=&quot; font-size:9pt; color:#ff557f;&quot;&gt;  أدخل الموقع الذي تريد أن يتم تطبيق القيود عليه (إضافته إلى القائمة السوداء)* &lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                 </property>
+                </widget>
+                <widget class="QLabel" name="label_24">
+                 <property name="geometry">
+                  <rect>
+                   <x>-20</x>
+                   <y>320</y>
+                   <width>471</width>
+                   <height>41</height>
+                  </rect>
+                 </property>
+                 <property name="text">
+                  <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;right&quot;&gt;&lt;span style=&quot; font-size:9pt; color:#ff557f;&quot;&gt;الرجاء تحديد فترة القيود عن طريق تحديد وقت البدء ووقت الإنتهاء* &lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;right&quot;&gt;&lt;span style=&quot; font-size:9pt; color:#ff557f;&quot;&gt;&amp;quot;علما أن النظام المعتد نظام ال24 ساعة لذلك ادخل رقم فقط &amp;quot; &lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                 </property>
+                </widget>
+                <widget class="QPushButton" name="submitF">
+                 <property name="geometry">
+                  <rect>
+                   <x>200</x>
+                   <y>530</y>
+                   <width>81</width>
+                   <height>31</height>
+                  </rect>
+                 </property>
+                 <property name="font">
+                  <font>
+                   <family>Nirmala UI</family>
+                   <pointsize>9</pointsize>
+                   <weight>75</weight>
+                   <bold>true</bold>
+                  </font>
+                 </property>
+                 <property name="cursor">
+                  <cursorShape>PointingHandCursor</cursorShape>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">QPushButton:hover{
+	background-color:white;
+	border-top-left-radius: 10px;
+	border-bottom-left-radius: 10px;
+border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+
+}
+
+QPushButton{
+background-color: rgb(255, 207, 233);
+border-color: qradialgradient(spread:pad, cx:0.5, cy:0.5, radius:0.5, fx:0.5, fy:0.5, stop:0 rgba(0, 0, 0, 0), stop:0.52 rgba(0, 0, 0, 0), stop:0.565 rgba(82, 121, 76, 33), stop:0.65 rgba(159, 235, 148, 64), stop:0.721925 rgba(255, 238, 150, 129), stop:0.77 rgba(255, 128, 128, 204), stop:0.89 rgba(191, 128, 255, 64), stop:1 rgba(0, 0, 0, 0));
+border-radius:30px;
+	border-top-left-radius: 10px;
+	border-bottom-left-radius: 10px;
+border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+
+}</string>
+                 </property>
+                 <property name="text">
+                  <string>تفعيل </string>
+                 </property>
+                </widget>
+                <widget class="QCheckBox" name="enableFservice">
+                 <property name="geometry">
+                  <rect>
+                   <x>310</x>
+                   <y>460</y>
+                   <width>171</width>
+                   <height>20</height>
+                  </rect>
+                 </property>
+                 <property name="font">
+                  <font>
+                   <family>Arial Narrow</family>
+                   <pointsize>10</pointsize>
+                   <weight>75</weight>
+                   <bold>true</bold>
+                  </font>
+                 </property>
+                 <property name="cursor">
+                  <cursorShape>PointingHandCursor</cursorShape>
+                 </property>
+                 <property name="text">
+                  <string> تفعيل هذه الخدمة </string>
+                 </property>
+                </widget>
+                <widget class="QLabel" name="label_25">
+                 <property name="geometry">
+                  <rect>
+                   <x>100</x>
+                   <y>430</y>
+                   <width>391</width>
+                   <height>20</height>
+                  </rect>
+                 </property>
+                 <property name="text">
+                  <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:9pt; color:#ff557f;&quot;&gt;&amp;quot;رجاءً إذا أردت تفعيل الخدمة قم بتحديد الخيار أدناه ثم انقر على &amp;quot;&lt;/span&gt;&lt;span style=&quot; font-size:9pt; font-weight:600; text-decoration: underline; color:#ff557f;&quot;&gt;تفعيل&lt;/span&gt;&lt;span style=&quot; font-size:9pt; font-weight:600; color:#ff557f;&quot;&gt;*&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                 </property>
+                </widget>
+                <widget class="QLineEdit" name="BlackLitField">
+                 <property name="geometry">
+                  <rect>
+                   <x>180</x>
+                   <y>230</y>
+                   <width>271</width>
+                   <height>31</height>
+                  </rect>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">background-color: rgb(0, 0, 0, 0);
+font: 11pt &quot;Nirmala UI&quot;;
+gridline-color: rgb(255, 255, 255);
+border-color: rgb(255, 255, 255);</string>
+                 </property>
+                 <property name="text">
+                  <string/>
+                 </property>
+                </widget>
+                <widget class="QPushButton" name="submitF_2">
+                 <property name="geometry">
+                  <rect>
+                   <x>70</x>
+                   <y>230</y>
+                   <width>81</width>
+                   <height>31</height>
+                  </rect>
+                 </property>
+                 <property name="font">
+                  <font>
+                   <family>Nirmala UI</family>
+                   <pointsize>9</pointsize>
+                   <weight>75</weight>
+                   <bold>true</bold>
+                  </font>
+                 </property>
+                 <property name="cursor">
+                  <cursorShape>PointingHandCursor</cursorShape>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">QPushButton:hover{
+	background-color:white;
+	border-top-left-radius: 10px;
+	border-bottom-left-radius: 10px;
+border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+
+}
+
+QPushButton{
+background-color: rgb(255, 207, 233);
+border-color: qradialgradient(spread:pad, cx:0.5, cy:0.5, radius:0.5, fx:0.5, fy:0.5, stop:0 rgba(0, 0, 0, 0), stop:0.52 rgba(0, 0, 0, 0), stop:0.565 rgba(82, 121, 76, 33), stop:0.65 rgba(159, 235, 148, 64), stop:0.721925 rgba(255, 238, 150, 129), stop:0.77 rgba(255, 128, 128, 204), stop:0.89 rgba(191, 128, 255, 64), stop:1 rgba(0, 0, 0, 0));
+border-radius:30px;
+	border-top-left-radius: 10px;
+	border-bottom-left-radius: 10px;
+border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+
+}</string>
+                 </property>
+                 <property name="text">
+                  <string>إضافة </string>
+                 </property>
+                </widget>
+                <widget class="QLabel" name="label_26">
+                 <property name="geometry">
+                  <rect>
+                   <x>-10</x>
+                   <y>160</y>
+                   <width>491</width>
+                   <height>20</height>
+                  </rect>
+                 </property>
+                 <property name="text">
+                  <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; color:#ffcfe9;&quot;&gt;ـــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــ&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                 </property>
+                </widget>
+                <widget class="QLabel" name="label_27">
+                 <property name="geometry">
+                  <rect>
+                   <x>0</x>
+                   <y>300</y>
+                   <width>491</width>
+                   <height>20</height>
+                  </rect>
+                 </property>
+                 <property name="text">
+                  <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; color:#ffcfe9;&quot;&gt;ـــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــ&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                 </property>
+                </widget>
+                <widget class="QLabel" name="label_28">
+                 <property name="geometry">
+                  <rect>
+                   <x>0</x>
+                   <y>410</y>
+                   <width>491</width>
+                   <height>20</height>
+                  </rect>
+                 </property>
+                 <property name="text">
+                  <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; color:#ffcfe9;&quot;&gt;ـــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــ&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                 </property>
+                </widget>
+                <widget class="QLabel" name="label_29">
+                 <property name="geometry">
+                  <rect>
+                   <x>370</x>
+                   <y>380</y>
+                   <width>61</width>
+                   <height>16</height>
+                  </rect>
+                 </property>
+                 <property name="font">
+                  <font>
+                   <family>Arial Narrow</family>
+                   <pointsize>10</pointsize>
+                   <weight>75</weight>
+                   <bold>true</bold>
+                  </font>
+                 </property>
+                 <property name="text">
+                  <string>وقت البدء:</string>
+                 </property>
+                </widget>
+                <widget class="QLabel" name="label_30">
+                 <property name="geometry">
+                  <rect>
+                   <x>210</x>
+                   <y>380</y>
+                   <width>81</width>
+                   <height>16</height>
+                  </rect>
+                 </property>
+                 <property name="font">
+                  <font>
+                   <family>Arial Narrow</family>
+                   <pointsize>10</pointsize>
+                   <weight>75</weight>
+                   <bold>true</bold>
+                  </font>
+                 </property>
+                 <property name="text">
+                  <string>وقت الإنتهاء:</string>
+                 </property>
+                </widget>
+                <widget class="QLabel" name="label_45">
+                 <property name="geometry">
+                  <rect>
+                   <x>360</x>
+                   <y>50</y>
+                   <width>101</width>
+                   <height>20</height>
+                  </rect>
+                 </property>
+                 <property name="font">
+                  <font>
+                   <family>Arial Narrow</family>
+                  </font>
+                 </property>
+                 <property name="text">
+                  <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:11pt; font-weight:600; color:#000000;&quot;&gt;:وصف الخدمة&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                 </property>
+                </widget>
+                <widget class="QLabel" name="label_46">
+                 <property name="geometry">
+                  <rect>
+                   <x>20</x>
+                   <y>80</y>
+                   <width>431</width>
+                   <height>71</height>
+                  </rect>
+                 </property>
+                 <property name="font">
+                  <font>
+                   <family>Arial Narrow</family>
+                   <pointsize>9</pointsize>
+                  </font>
+                 </property>
+                 <property name="text">
+                  <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;right&quot;&gt;&lt;span style=&quot; font-size:9pt; color:#aa557f;&quot;&gt;تتيح هذه الخدمة إنشاء قائمة سوداء للمواقع التي يُراد تصفيتها أو حظرها &lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;right&quot;&gt;&lt;span style=&quot; font-size:9pt; color:#aa557f;&quot;&gt;.كما تتيح تحديد وقت للقيود بحيث يمنع فتح تطبيقات او مواقع معينة خلال الفترة المحددة&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                 </property>
+                </widget>
+                <widget class="QLineEdit" name="StartTime">
+                 <property name="geometry">
+                  <rect>
+                   <x>320</x>
+                   <y>380</y>
+                   <width>41</width>
+                   <height>20</height>
+                  </rect>
+                 </property>
+                </widget>
+                <widget class="QLineEdit" name="EndTime">
+                 <property name="geometry">
+                  <rect>
+                   <x>170</x>
+                   <y>380</y>
+                   <width>41</width>
+                   <height>20</height>
+                  </rect>
+                 </property>
+                </widget>
+                <widget class="QLabel" name="msg">
+                 <property name="geometry">
+                  <rect>
+                   <x>20</x>
+                   <y>269</y>
+                   <width>431</width>
+                   <height>31</height>
+                  </rect>
+                 </property>
+                 <property name="text">
+                  <string/>
+                 </property>
+                </widget>
+                <widget class="QLabel" name="checkAdmin">
+                 <property name="geometry">
+                  <rect>
+                   <x>30</x>
+                   <y>490</y>
+                   <width>431</width>
+                   <height>31</height>
+                  </rect>
+                 </property>
+                 <property name="text">
+                  <string/>
+                 </property>
+                </widget>
+               </widget>
+               <widget class="QWidget" name="Cpage">
+                <widget class="QLineEdit" name="userNameField">
+                 <property name="geometry">
+                  <rect>
+                   <x>70</x>
+                   <y>160</y>
+                   <width>271</width>
+                   <height>31</height>
+                  </rect>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">background-color: rgb(0, 0, 0, 0);
+font: 11pt &quot;Nirmala UI&quot;;
+gridline-color: rgb(255, 255, 255);
+border-color: rgb(255, 255, 255);</string>
+                 </property>
+                 <property name="text">
+                  <string/>
+                 </property>
+                </widget>
+                <widget class="QLineEdit" name="emailField">
+                 <property name="geometry">
+                  <rect>
+                   <x>70</x>
+                   <y>220</y>
+                   <width>271</width>
+                   <height>41</height>
+                  </rect>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">background-color: rgb(0, 0, 0, 0);
+font: 11pt &quot;Nirmala UI&quot;;
+gridline-color: rgb(255, 255, 255);
+border-color: rgb(255, 255, 255);</string>
+                 </property>
+                 <property name="text">
+                  <string/>
+                 </property>
+                </widget>
+                <widget class="QLineEdit" name="commantField">
+                 <property name="geometry">
+                  <rect>
+                   <x>70</x>
+                   <y>280</y>
+                   <width>271</width>
+                   <height>221</height>
+                  </rect>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">background-color: rgb(0, 0, 0, 0);
+font: 11pt &quot;Nirmala UI&quot;;
+gridline-color: rgb(255, 255, 255);
+border-color: rgb(255, 255, 255);</string>
+                 </property>
+                 <property name="text">
+                  <string/>
+                 </property>
+                </widget>
+                <widget class="QPushButton" name="send">
+                 <property name="geometry">
+                  <rect>
+                   <x>150</x>
+                   <y>530</y>
+                   <width>111</width>
+                   <height>50</height>
+                  </rect>
+                 </property>
+                 <property name="font">
+                  <font>
+                   <family>Nirmala UI</family>
+                   <pointsize>9</pointsize>
+                   <weight>75</weight>
+                   <bold>true</bold>
+                  </font>
+                 </property>
+                 <property name="cursor">
+                  <cursorShape>PointingHandCursor</cursorShape>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">QPushButton:hover{
+	background-color:white;
+	border-top-left-radius: 10px;
+	border-bottom-left-radius: 10px;
+border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+
+}
+
+QPushButton{
+background-color: rgb(255, 207, 233);
+border-color: qradialgradient(spread:pad, cx:0.5, cy:0.5, radius:0.5, fx:0.5, fy:0.5, stop:0 rgba(0, 0, 0, 0), stop:0.52 rgba(0, 0, 0, 0), stop:0.565 rgba(82, 121, 76, 33), stop:0.65 rgba(159, 235, 148, 64), stop:0.721925 rgba(255, 238, 150, 129), stop:0.77 rgba(255, 128, 128, 204), stop:0.89 rgba(191, 128, 255, 64), stop:1 rgba(0, 0, 0, 0));
+border-radius:30px;
+	border-top-left-radius: 10px;
+	border-bottom-left-radius: 10px;
+border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+
+}</string>
+                 </property>
+                 <property name="text">
+                  <string>إرسال</string>
+                 </property>
+                </widget>
+                <widget class="QLabel" name="label_9">
+                 <property name="geometry">
+                  <rect>
+                   <x>350</x>
+                   <y>170</y>
+                   <width>101</width>
+                   <height>20</height>
+                  </rect>
+                 </property>
+                 <property name="font">
+                  <font>
+                   <family>Arial Narrow</family>
+                   <pointsize>9</pointsize>
+                   <weight>75</weight>
+                   <bold>true</bold>
+                  </font>
+                 </property>
+                 <property name="text">
+                  <string>اسم المستخدم: </string>
+                 </property>
+                </widget>
+                <widget class="QLabel" name="label_10">
+                 <property name="geometry">
+                  <rect>
+                   <x>350</x>
+                   <y>230</y>
+                   <width>111</width>
+                   <height>20</height>
+                  </rect>
+                 </property>
+                 <property name="font">
+                  <font>
+                   <family>Arial Narrow</family>
+                   <pointsize>9</pointsize>
+                   <weight>75</weight>
+                   <bold>true</bold>
+                  </font>
+                 </property>
+                 <property name="text">
+                  <string>الإيميل الإلكتروني: </string>
+                 </property>
+                </widget>
+                <widget class="QLabel" name="label_4">
+                 <property name="geometry">
+                  <rect>
+                   <x>-4</x>
+                   <y>50</y>
+                   <width>481</width>
+                   <height>81</height>
+                  </rect>
+                 </property>
+                 <property name="text">
+                  <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:9pt; color:#ff557f;&quot;&gt;هل لديك أسئلة أو ملاحظات ؟&lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:9pt; color:#ff557f;&quot;&gt;.لا تتردد في إرسال رسالة إلى فريق الدعم الفني عبر النموذج أدناه و سنسعد بمساعدتك&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                 </property>
+                </widget>
+                <widget class="QLabel" name="label_18">
+                 <property name="geometry">
+                  <rect>
+                   <x>350</x>
+                   <y>340</y>
+                   <width>91</width>
+                   <height>71</height>
+                  </rect>
+                 </property>
+                 <property name="font">
+                  <font>
+                   <family>Arial Narrow</family>
+                   <pointsize>11</pointsize>
+                   <weight>75</weight>
+                   <bold>true</bold>
+                  </font>
+                 </property>
+                 <property name="text">
+                  <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;right&quot;&gt;&lt;span style=&quot; font-size:9pt;&quot;&gt;الأسئلة&lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;right&quot;&gt;&lt;span style=&quot; font-size:9pt;&quot;&gt;أو الملاحظات &lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                 </property>
+                </widget>
+                <widget class="QLabel" name="label_5">
+                 <property name="geometry">
+                  <rect>
+                   <x>0</x>
+                   <y>10</y>
+                   <width>471</width>
+                   <height>20</height>
+                  </rect>
+                 </property>
+                 <property name="text">
+                  <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:11pt; font-weight:600; font-style:italic; color:#aa557f;&quot;&gt;** Contact Us **&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                 </property>
+                </widget>
+               </widget>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+          <item>
+           <widget class="QFrame" name="menuServices">
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>0</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>250</width>
+              <height>16777215</height>
+             </size>
+            </property>
+            <property name="frameShape">
+             <enum>QFrame::StyledPanel</enum>
+            </property>
+            <property name="frameShadow">
+             <enum>QFrame::Raised</enum>
+            </property>
+            <layout class="QVBoxLayout" name="verticalLayout_2">
+             <property name="spacing">
+              <number>0</number>
+             </property>
+             <property name="leftMargin">
+              <number>0</number>
+             </property>
+             <property name="topMargin">
+              <number>0</number>
+             </property>
+             <property name="rightMargin">
+              <number>0</number>
+             </property>
+             <property name="bottomMargin">
+              <number>0</number>
+             </property>
+             <item>
+              <widget class="QFrame" name="frame_5">
+               <property name="maximumSize">
+                <size>
+                 <width>16777215</width>
+                 <height>50</height>
+                </size>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">background-color: rgb(255, 221, 246);</string>
+               </property>
+               <property name="frameShape">
+                <enum>QFrame::StyledPanel</enum>
+               </property>
+               <property name="frameShadow">
+                <enum>QFrame::Raised</enum>
+               </property>
+               <widget class="QLabel" name="label_41">
+                <property name="geometry">
+                 <rect>
+                  <x>30</x>
+                  <y>10</y>
+                  <width>121</width>
+                  <height>31</height>
+                 </rect>
+                </property>
+                <property name="font">
+                 <font>
+                  <family>Arial Narrow</family>
+                  <pointsize>10</pointsize>
+                  <weight>75</weight>
+                  <bold>true</bold>
+                 </font>
+                </property>
+                <property name="text">
+                 <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;right&quot;&gt;&lt;span style=&quot; font-size:11pt; font-weight:400; color:#cea4c3;&quot;&gt;قائمة الخدمات&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                </property>
+               </widget>
+               <widget class="QLabel" name="menuIcon">
+                <property name="geometry">
+                 <rect>
+                  <x>170</x>
+                  <y>0</y>
+                  <width>61</width>
+                  <height>51</height>
+                 </rect>
+                </property>
+                <property name="text">
+                 <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;img src=&quot;:/icons/menu_.png&quot;/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                </property>
+               </widget>
+              </widget>
+             </item>
+             <item>
+              <widget class="QFrame" name="frame_6">
+               <property name="styleSheet">
+                <string notr="true">background-color: rgb(255, 221, 246);</string>
+               </property>
+               <property name="frameShape">
+                <enum>QFrame::StyledPanel</enum>
+               </property>
+               <property name="frameShadow">
+                <enum>QFrame::Raised</enum>
+               </property>
+               <widget class="QPushButton" name="filterWeb">
+                <property name="geometry">
+                 <rect>
+                  <x>20</x>
+                  <y>220</y>
+                  <width>200</width>
+                  <height>45</height>
+                 </rect>
+                </property>
+                <property name="font">
+                 <font>
+                  <family>Arial Narrow</family>
+                  <pointsize>11</pointsize>
+                  <weight>75</weight>
+                  <bold>true</bold>
+                 </font>
+                </property>
+                <property name="cursor">
+                 <cursorShape>PointingHandCursor</cursorShape>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">QPushButton{
+border:0px;
+}
+
+QPushButton:hover{
+	background-color:white;
+	border-top-left-radius: 10px;
+	border-bottom-left-radius: 10px;
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+
+	font: 75 12pt &quot;Arial Narrow&quot;;
+}</string>
+                </property>
+                <property name="text">
+                 <string>Filter Website</string>
+                </property>
+               </widget>
+               <widget class="QPushButton" name="contactUs">
+                <property name="geometry">
+                 <rect>
+                  <x>20</x>
+                  <y>330</y>
+                  <width>200</width>
+                  <height>45</height>
+                 </rect>
+                </property>
+                <property name="font">
+                 <font>
+                  <family>Arial Narrow</family>
+                  <pointsize>11</pointsize>
+                  <weight>75</weight>
+                  <bold>true</bold>
+                 </font>
+                </property>
+                <property name="cursor">
+                 <cursorShape>PointingHandCursor</cursorShape>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">QPushButton{
+border:0px;
+}
+
+QPushButton:hover{
+	background-color:white;
+	border-top-left-radius: 10px;
+	border-bottom-left-radius: 10px;
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+
+	font: 75 12pt &quot;Arial Narrow&quot;;
+}</string>
+                </property>
+                <property name="text">
+                 <string>Contact Us</string>
+                </property>
+               </widget>
+               <widget class="QLabel" name="label">
+                <property name="geometry">
+                 <rect>
+                  <x>0</x>
+                  <y>280</y>
+                  <width>221</width>
+                  <height>20</height>
+                 </rect>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true"/>
+                </property>
+                <property name="text">
+                 <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; color:#ffcfe9;&quot;&gt;______________________________________&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                </property>
+               </widget>
+               <widget class="QPushButton" name="adBlock">
+                <property name="geometry">
+                 <rect>
+                  <x>20</x>
+                  <y>160</y>
+                  <width>200</width>
+                  <height>45</height>
+                 </rect>
+                </property>
+                <property name="font">
+                 <font>
+                  <family>Arial Narrow</family>
+                  <pointsize>11</pointsize>
+                  <weight>75</weight>
+                  <bold>true</bold>
+                 </font>
+                </property>
+                <property name="cursor">
+                 <cursorShape>PointingHandCursor</cursorShape>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">QPushButton{
+border:0px;
+}
+
+QPushButton:hover{
+	background-color:white;
+	border-top-left-radius: 10px;
+	border-bottom-left-radius: 10px;
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+
+	font: 75 12pt &quot;Arial Narrow&quot;;
+}</string>
+                </property>
+                <property name="text">
+                 <string>Ad Block</string>
+                </property>
+               </widget>
+               <widget class="QPushButton" name="secreenshot">
+                <property name="geometry">
+                 <rect>
+                  <x>20</x>
+                  <y>100</y>
+                  <width>200</width>
+                  <height>45</height>
+                 </rect>
+                </property>
+                <property name="font">
+                 <font>
+                  <family>Arial Narrow</family>
+                  <pointsize>11</pointsize>
+                  <weight>75</weight>
+                  <bold>true</bold>
+                 </font>
+                </property>
+                <property name="cursor">
+                 <cursorShape>PointingHandCursor</cursorShape>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">QPushButton{
+border:0px;
+}
+
+QPushButton:hover{
+	background-color:white;
+	border-top-left-radius: 10px;
+	border-bottom-left-radius: 10px;
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+
+	font: 75 12pt &quot;Arial Narrow&quot;;
+}</string>
+                </property>
+                <property name="text">
+                 <string>Screenshot</string>
+                </property>
+               </widget>
+               <widget class="QPushButton" name="keylogging">
+                <property name="geometry">
+                 <rect>
+                  <x>20</x>
+                  <y>40</y>
+                  <width>200</width>
+                  <height>45</height>
+                 </rect>
+                </property>
+                <property name="font">
+                 <font>
+                  <family>Arial Narrow</family>
+                  <pointsize>11</pointsize>
+                  <weight>75</weight>
+                  <bold>true</bold>
+                 </font>
+                </property>
+                <property name="cursor">
+                 <cursorShape>PointingHandCursor</cursorShape>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">QPushButton{
+border:0px;
+}
+
+QPushButton:hover{
+	background-color:white;
+	border-top-left-radius: 10px;
+	border-bottom-left-radius: 10px;
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+
+	font: 75 12pt &quot;Arial Narrow&quot;;
+}</string>
+                </property>
+                <property name="text">
+                 <string>Keylogging</string>
+                </property>
+               </widget>
+               <widget class="QLabel" name="label_42">
+                <property name="geometry">
+                 <rect>
+                  <x>0</x>
+                  <y>380</y>
+                  <width>221</width>
+                  <height>20</height>
+                 </rect>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true"/>
+                </property>
+                <property name="text">
+                 <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; color:#ffcfe9;&quot;&gt;______________________________________&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                </property>
+               </widget>
+               <widget class="QLabel" name="logoutIcon">
+                <property name="geometry">
+                 <rect>
+                  <x>70</x>
+                  <y>460</y>
+                  <width>51</width>
+                  <height>41</height>
+                 </rect>
+                </property>
+                <property name="text">
+                 <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;img src=&quot;:/icons/logoutICON_.png&quot;/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                </property>
+               </widget>
+               <widget class="QPushButton" name="LogOut">
+                <property name="geometry">
+                 <rect>
+                  <x>100</x>
+                  <y>462</y>
+                  <width>75</width>
+                  <height>31</height>
+                 </rect>
+                </property>
+                <property name="cursor">
+                 <cursorShape>PointingHandCursor</cursorShape>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">QPushButton{
+border:0px;
+
+
+	font: 75 9pt &quot;Arial Narrow&quot;;
+}
+QPushButton:hover{
+	border-top-left-radius: 10px;
+	border-bottom-left-radius: 10px;
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+font: 75 10pt &quot;Arial Narrow&quot;;
+
+}</string>
+                </property>
+                <property name="text">
+                 <string>تسجيل خروج</string>
+                </property>
+               </widget>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources>
+  <include location="icons/icons.qrc"/>
+  <include location="logo.qrc"/>
+ </resources>
+ <connections/>
+</ui>

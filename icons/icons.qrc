@@ -1,0 +1,16 @@
+<RCC>
+  <qresource prefix="icons">
+    <file>menu_.png</file>
+    <file>logoutICON_.png</file>
+    <file>C_icon.png</file>
+    <file>close_icon.png</file>
+    <file>maximize_icon.png</file>
+    <file>menu.jfif</file>
+    <file>menuu.png</file>
+    <file>minimize_icon.png</file>
+    <file>signup.png</file>
+    <file>loginn.png</file>
+    <file>menu.png</file>
+    <file>logoutICON.png</file>
+  </qresource>
+</RCC>
